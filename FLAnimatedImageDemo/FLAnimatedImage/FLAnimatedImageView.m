@@ -261,6 +261,9 @@
                 self.loopCountdown--;
                 if (self.loopCountdown == 0) {
                     [self stopAnimating];
+                    if (self.completionBlock) {
+                        self.completionBlock();
+                    }
                     return;
                 }
                 self.currentFrameIndex = 0;

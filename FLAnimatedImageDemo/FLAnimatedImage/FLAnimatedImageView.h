@@ -28,6 +28,8 @@
 @property (nonatomic, strong, readonly) UIImage *currentFrame;
 @property (nonatomic, assign, readonly) NSUInteger currentFrameIndex;
 
+@property (nonatomic, copy) void (^completionBlock)(void);
+
 #if defined(DEBUG) && DEBUG
 // Only intended to report internal state for debugging
 @property (nonatomic, weak) id<FLAnimatedImageViewDebugDelegate> debug_delegate;
