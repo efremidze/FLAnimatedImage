@@ -32,6 +32,12 @@ To add it to your app, copy the two classes `FLAnimatedImage.h/.m` and `FLAnimat
 pod 'FLAnimatedImage', '~> 1.0'
 ```
 
+If using [Carthage](https://github.com/Carthage/Carthage), add following line into your `Carfile`
+
+```
+github "Flipboard/FLAnimatedImage"
+```
+
 In your code, `#import "FLAnimatedImage.h"`, create an image from an animated GIF, and setup the image view to display it:
 
 ```objective-c
@@ -72,6 +78,8 @@ Feel free to reach out to [@RaphaelSchaad](https://twitter.com/raphaelschaad) fo
 - [Close-up](http://closeu.pe)
 - [Zip Code Finder](https://itunes.apple.com/app/id893031254)
 - [getGIF](https://itunes.apple.com/app/id964784701)
+- [Giffage](http://giffage.com)
 - [Flipboard](https://flipboard.com)
+- [Gifalicious](https://itunes.apple.com/us/app/gifalicious-see-your-gifs/id965346708?mt=8)
 
 Using FLAnimatedImage in your app? [Let me know!](https://twitter.com/raphaelschaad)
